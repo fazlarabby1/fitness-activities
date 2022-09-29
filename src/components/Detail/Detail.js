@@ -20,7 +20,7 @@ const Detail = () => {
         addBreakTimeToLS(time);
         updateBreakTime();
     }
-    const notify = () => toast("First Toast"); 
+    const notify = () => toast("YAYY!! Activity is completed!"); 
     return (
         <div>
             <div className='my-details d-flex justify-content-center'>
