@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faDumbbell, faLocation, faLocationArrow, faLocationPin, faLocationPinLock, faMapLocation } from '@fortawesome/free-solid-svg-icons';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Detail.css'
 
@@ -42,7 +42,7 @@ const Detail = () => {
                 <h4 className='ms-3 mb-4'>Exercise Details</h4>
                 <div className='d-flex justify-content-around align-items-center exercise-time mx-3 py-2 rounded'>
                    <h5>Exercise Time</h5>
-                   <p className='text-muted'> <span>0</span> minutes</p>
+                   <p className='text-muted'> <span id='exercise-time'>0</span> minutes</p>
                 </div> 
                 <div className='d-flex justify-content-around align-items-center exercise-time mx-3 py-2 rounded mt-3'>
                    <h5>Break Time</h5>

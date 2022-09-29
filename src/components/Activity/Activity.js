@@ -3,7 +3,8 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Detail from '../Detail/Detail';
 import Exercise from '../Exercise/Exercise';
-import './Activity.css'
+import './Activity.css';
+import { getPreviousTime, updateTime } from '../Utilities/utilities';
 
 const Activity = () => {
     const [exercises, setExercises] = useState([]);
@@ -13,6 +14,13 @@ const Activity = () => {
         .then(data => setExercises(data))
     },
          [])
+         const addToExerciseTime = (selectedExercise) =>{
+            const {time} = selectedExercise;
+            const previousTime = getPreviousTime();
+            const newTime = time + previousTime;
+            updateTime(newTime);
+            console.log(newTime);
+         } 
     return (
         <div className="activity">
             <div className='exercise-container'>
@@ -20,7 +28,7 @@ const Activity = () => {
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 g-4">
                 {
                    exercises.map(exercise => <Exercise
-                   key={exercise.id} exercise={exercise}>
+                   key={exercise.id} addToExerciseTime={addToExerciseTime} exercise={exercise}>
                    </Exercise>)
                 }
             </div>
