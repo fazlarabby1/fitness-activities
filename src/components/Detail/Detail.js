@@ -3,6 +3,8 @@ import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import './Detail.css'
 import { addBreakTimeToLS, updateBreakTime, getStoredBreakTimeFromLS, setBreakTimeFromLS } from '../Utilities/utilities';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Detail = () => {
     const [breakTime, setBreakTime] = useState(0);
@@ -18,8 +20,9 @@ const Detail = () => {
         addBreakTimeToLS(time);
         updateBreakTime();
     }
+    const notify = () => toast("First Toast"); 
     return (
-        <div className=''>
+        <div>
             <div className='my-details d-flex justify-content-center'>
                 <img className='rounded-circle' src="my.jpg" alt="" />
                 <div style={{marginLeft: '15px'}}>
@@ -46,13 +49,13 @@ const Detail = () => {
             <div className='container'>
                 <h4 className='fw-semibold ms-3'>Add A Break </h4>
                 <div className='d-flex justify-content-around align-items-center break-time mx-3 py-2 rounded'>
-                    <p className='btn btn-light rounded-5 mb-0'><span onClick={(e)=> handleClick(e)} >60</span>s</p>
+                    <p className='btn btn-light rounded-5 mb-0 ms-2 me-sm-2 me-lg-0 me-md-2 me-2'><span onClick={(e)=> handleClick(e)} >60</span>s</p>
 
-                    <p className='btn btn-light rounded-5 mb-0'> <span onClick={(e)=> handleClick(e)} >120</span>s</p>
+                    <p className='btn btn-light rounded-5 mb-0 me-sm-2 me-lg-0 me-md-2 me-2'> <span onClick={(e)=> handleClick(e)} >120</span>s</p>
 
-                    <p className='btn btn-light rounded-5 mb-0'> <span onClick={(e)=> handleClick(e)} >180</span>s</p>
+                    <p className='btn btn-light rounded-5 mb-0 me-sm-2 me-lg-0 me-md-2 me-2'> <span onClick={(e)=> handleClick(e)} >180</span>s</p>
 
-                    <p className='btn btn-light rounded-5 mb-0'><span onClick={(e)=> handleClick(e)}>240</span>s</p>
+                    <p className='btn btn-light rounded-5 mb-0 me-sm-2 me-lg-0 me-md-2 me-2'><span onClick={(e)=> handleClick(e)}>240</span>s</p>
                 </div> 
             </div>    
             <div className='container mt-5'>
@@ -65,7 +68,11 @@ const Detail = () => {
                    <h5>Break Time</h5>
                    <p className='text-muted'> <span id="exercise-break">0</span> seconds</p>
                 </div> 
-            </div>    
+            </div> 
+            <div className='container'>
+            <button className='mt-5 ms-4 fw-semibold text-white bg-primary rounded border-0 px-5 py-2' onClick={notify}>Activity Completed</button>  
+            <ToastContainer></ToastContainer>
+            </div> 
         </div>
     );
 };
