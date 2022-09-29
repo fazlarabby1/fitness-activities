@@ -15,5 +15,12 @@
 }
 
 .detail-container{
-    margin-left: 150px;
+    margin-left: 100px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 480px){
+    .detail-container{
+        margin-left: 20px;
+    }
 }

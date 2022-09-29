@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Detail from '../Detail/Detail';
 import Exercise from '../Exercise/Exercise';
