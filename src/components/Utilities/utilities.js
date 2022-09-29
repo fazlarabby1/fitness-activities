@@ -11,24 +11,34 @@ const updateTime = (newTime) =>{
 }
 
 const addBreakTimeToLS = (addTime) =>{
+    localStorage.setItem("break-time", JSON.stringify(addTime));
+}
+
+const getStoredBreakTimeFromLS = ()=>{
     const breakTime = localStorage.getItem("break-time");
-    if(breakTime){
-        localStorage.removeItem(breakTime);
+    if(!breakTime){
+        return 0;
     }
     else{
-        localStorage.setItem("break-time", JSON.stringify(addTime));
+        return breakTime;
     }
 }
 
-const getPreviousBreakTime = () => {
-    const previousBreak = document.getElementById("exercise-break").innerText;
-    previousBreak.innerText = '';
-    const newBreak = localStorage.getItem("break-time");
+const setBreakTimeFromLS = (storedTime) =>{
+    document.getElementById("exercise-break").innerText = storedTime;
+}
+
+const updateBreakTime = () => {
+    const newBreak = JSON.parse(getStoredBreakTimeFromLS());
+    let previousBreak = document.getElementById("exercise-break");
     previousBreak.innerText = newBreak;
+    
 }
 export {
     getPreviousTime,
     updateTime,
     addBreakTimeToLS,
-    getPreviousBreakTime
+    getStoredBreakTimeFromLS,
+    setBreakTimeFromLS,
+    updateBreakTime
 }
