@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Chest Exercise",
+        "description": "There are 3 parts in your chest. These are the upper chest, lower chest, and middle chest. You have to hit all of the parts once in a week to keep the pump. However, don't try to hit all the parts in one day.",
+        "age": "Above 16",
+        "time": 60
+    },
+    {
+        "id": 2,
+        "name": "Back Exercise",
+        "description": "Your back is the most highlighted area of your body. There are also 3 parts of back. These are lats, middle back, and lower back. One can hit all of these parts in a day. However, make sure not to overdo things.",
+        "age": "Above 16",
+        "time": 70
+    },
+    {
+        "id": 3,
+        "name": "Shoulder Exercise",
+        "description": "The bigger your shoulder the bigger your body will be. It is necessary to hit shoulder once in a week. Try to hit all the portions of the shoulder and get the pump.",
+        "age": "Above 16",
+        "time": 65
+    },
+    {
+        "id": 4,
+        "name": "Bicep Exercise",
+        "description": "Bicep is not a big body part as chest or shoulder or back. Therefore, one can do bicep exercise with chest or even back exercise. However, most of the young stars are too focused on bicep which is a negative impact on the body and mind.",
+        "age": "Above 16",
+        "time": 35
+    },
+    {
+        "id": 5,
+        "name": "Tricep Exercise",
+        "description": "The bigger your tricep the bigger your arms will be. But that doesn't mean you have to always hit your tricep. Try to hit tricep at least twice a week. Add the tricep exercise with chest. Or you can do bicep and tricep in a day.",
+        "age": "Above 16",
+        "time": 35
+    },
+    {
+        "id": 6,
+        "name": "Leg Exercise",
+        "description": "Your strength relies in your legs. The stronger your legs are the stronger you will be. But leg exercise is very exhausting, therefore, one should take rest between sets. Don't try to exceed your limit while doing legs as it can damage your leg and even your back.",
+        "age": "Above 16",
+        "time": 80
+    },
+    {
+        "id": 7,
+        "name": "Abs Exercise",
+        "description": "Abs exercise should be done twice or thrice a week. Abs exercise is very hard and tiresome. It is recommended that do not take longer breaks between abs exercise.",
+        "age": "Above 18",
+        "time": 20
+    },
+    {
+        "id": 8,
+        "name": "Forearms Exercise",
+        "description": "Generally, your forearms will get hit while doing other exercise. So, you do not have to hit them separately. However, if your forearms are weak then you should hit them. But do not waste much time doing forearms.",
+        "age": "Above 16",
+        "time": 15
+    },
+    {
+        "id": 9,
+        "name": "Calves Exercise",
+        "description": "While doing legs exercise you should hit your calves as well. You do not have to hit calves with heavy weight. Also, do not put too much effort on calves than legs.",
+        "age": "Above 16",
+        "time": 20
+    }
+]
