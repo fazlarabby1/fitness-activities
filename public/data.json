@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "image": "https://barbend.com/wp-content/uploads/2019/03/BarBend-Article-Image-760-x-427-62.jpg",
         "name": "Chest Exercise",
         "description": "There are 3 parts in your chest. These are the upper chest, lower chest, and middle chest. You have to hit all of the parts once in a week to keep the pump. However, don't try to hit all the parts in one day.",
         "age": "Above 16",
@@ -8,6 +9,7 @@
     },
     {
         "id": 2,
+        "image": "https://64.media.tumblr.com/35c809827ea28ba3f5816e6b6fc9ce27/91b3826cecd3c66e-e7/s1280x1920/daa96b19e46eb0460a4be885fd3bd1826bcfab16.jpg",
         "name": "Back Exercise",
         "description": "Your back is the most highlighted area of your body. There are also 3 parts of back. These are lats, middle back, and lower back. One can hit all of these parts in a day. However, make sure not to overdo things.",
         "age": "Above 16",
@@ -15,6 +17,7 @@
     },
     {
         "id": 3,
+        "image": "https://generationiron.com/wp-content/uploads/2021/08/4-1068x566.jpg",
         "name": "Shoulder Exercise",
         "description": "The bigger your shoulder the bigger your body will be. It is necessary to hit shoulder once in a week. Try to hit all the portions of the shoulder and get the pump.",
         "age": "Above 16",
@@ -22,6 +25,7 @@
     },
     {
         "id": 4,
+        "image": "https://i.pinimg.com/originals/58/a1/7a/58a17a8daff26eb79fce76c8141afac2.png",
         "name": "Bicep Exercise",
         "description": "Bicep is not a big body part as chest or shoulder or back. Therefore, one can do bicep exercise with chest or even back exercise. However, most of the young stars are too focused on bicep which is a negative impact on the body and mind.",
         "age": "Above 16",
@@ -29,6 +33,7 @@
     },
     {
         "id": 5,
+        "image": "https://i0.wp.com/www.grandpeoples.com/wp-content/uploads/2021/04/Andrei-Deiu-19.jpg?w=1080&ssl=1",
         "name": "Tricep Exercise",
         "description": "The bigger your tricep the bigger your arms will be. But that doesn't mean you have to always hit your tricep. Try to hit tricep at least twice a week. Add the tricep exercise with chest. Or you can do bicep and tricep in a day.",
         "age": "Above 16",
@@ -36,6 +41,7 @@
     },
     {
         "id": 6,
+        "image": "https://www.t-nation.com/wp-content/uploads/2019/01/No-Weights-Big-Wheels.jpg",
         "name": "Leg Exercise",
         "description": "Your strength relies in your legs. The stronger your legs are the stronger you will be. But leg exercise is very exhausting, therefore, one should take rest between sets. Don't try to exceed your limit while doing legs as it can damage your leg and even your back.",
         "age": "Above 16",
@@ -43,6 +49,7 @@
     },
     {
         "id": 7,
+        "image": "https://st.depositphotos.com/1001552/2548/i/950/depositphotos_25483407-stock-photo-torso-with-six-pack.jpg",
         "name": "Abs Exercise",
         "description": "Abs exercise should be done twice or thrice a week. Abs exercise is very hard and tiresome. It is recommended that do not take longer breaks between abs exercise.",
         "age": "Above 18",
@@ -50,6 +57,7 @@
     },
     {
         "id": 8,
+        "image": "https://generationiron.com/wp-content/uploads/2017/07/popeye-forearms-1068x566.jpg",
         "name": "Forearms Exercise",
         "description": "Generally, your forearms will get hit while doing other exercise. So, you do not have to hit them separately. However, if your forearms are weak then you should hit them. But do not waste much time doing forearms.",
         "age": "Above 16",
@@ -57,6 +65,7 @@
     },
     {
         "id": 9,
+        "image": "https://images.squarespace-cdn.com/content/5750d5129f72662d66448028/1471824547359-ILZU9Q8FC00KWBUF44PU/Calf+Raises+Standing+2.jpg?format=2500w&content-type=image%2Fjpeg",
         "name": "Calves Exercise",
         "description": "While doing legs exercise you should hit your calves as well. You do not have to hit calves with heavy weight. Also, do not put too much effort on calves than legs.",
         "age": "Above 16",

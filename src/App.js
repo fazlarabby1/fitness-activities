@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Activity from './components/Activity/Activity';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="">
+     <Activity></Activity>
     </div>
   );
 }

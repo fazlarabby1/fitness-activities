@@ -1,0 +1,11 @@
+.activity{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+.exercise-container{
+    margin-left: 40px;
+}
+
+.detail-container{
+    margin-left: 150px;
+}
